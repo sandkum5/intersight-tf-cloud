@@ -13,7 +13,7 @@ provider "intersight" {
 }
 
 resource "intersight_ntp_policy" "ntp_policy" {
-  name        = "tf_cloud_demo"
+  name        = "tf_cloud_demo_1"
   description = "Policy Created using no variables"
   enabled     = true
   ntp_servers = ["1.1.1.1", "2.2.2.4"]
