@@ -14,7 +14,7 @@ provider "intersight" {
 
 resource "intersight_ntp_policy" "ntp_policy" {
   name        = "tf_cloud_demo_1"
-  description = "Policy Created using Terraform Cloud TF_Run_0"
+  description = "Policy Created using Terraform Cloud TF_Run_1"
   enabled     = true
   ntp_servers = ["1.1.1.2", "2.2.2.5"]
   timezone    = "America/Los_Angeles"
